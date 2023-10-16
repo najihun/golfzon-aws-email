@@ -1,5 +1,6 @@
 variable "hostname" {
   type = string
+  default = "app.terraform.io"
 }
 variable "token" {
   type = string
