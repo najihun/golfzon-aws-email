@@ -16,7 +16,6 @@ provider "email" {}
 provider "tfe" {
   hostname = var.hostname
   token    = var.token
-  version  = "~> 0.49.2"
 }
   
 
