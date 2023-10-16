@@ -7,10 +7,10 @@ variable "token" {
 variable "tf_org" {
   type = string
 }
-variable "workspace" {
+variable "tf_workspace" {
   type = string
 }
-variable "email_receiver {
+variable "email_receiver" {
   type = string
 }
 variable "email_sender" {
